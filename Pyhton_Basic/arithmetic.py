@@ -11,4 +11,13 @@ omitedfloorDivision = multiply//sum #divison that discards the fractional part 1
 usingPowerInPy = 5**2# 5squire --> 25
 
 
+#table -----row colum is | 
+twoDymentionalArray = [['name','age','grade'],
+                       ['Yousuf','23','F'],
+                       ['Badboy','999+','A+']]
+
+
+
+print(twoDymentionalArray[0],
+      twoDymentionalArray[1])
 
