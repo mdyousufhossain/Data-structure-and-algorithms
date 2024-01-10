@@ -1,8 +1,15 @@
 a,b = 0,1 
 
-while a < 100: 
+while a < 50: 
      print(a)
      a,b = b , a + b
+     
+
+
+while a > 0:
+    print(a)
+    a, b = b - a, a
+
      
      
      
@@ -23,5 +30,14 @@ while a < 100:
 # a = 21 b = 21,b= 13 + 21
 # a = 34  
  
-    
+# c , d = 0 , 1 
+
+# while c < 50:
+#      print(c)
+#      c , d = d , c + d 
+ 
+# c = 0
+# while c < 20:
+#      print(c)
+#      c += 1   
     
