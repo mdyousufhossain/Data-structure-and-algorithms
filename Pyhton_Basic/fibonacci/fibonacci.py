@@ -12,7 +12,14 @@ while a > 0:
 
      
      
-     
+def fib2(n):  # return Fibonacci series up to n
+    """Return a list containing the Fibonacci series up to n."""
+    result = []
+    a, b = 0, 1
+    while a < n:
+        result.append(a)    # see below
+        a, b = b, a+b
+    return result     
 # a = 0 , b = 1 , until a reach 100 we will sum value  
 # so first value of a = 0 but b is 1 
 # so lets explain
