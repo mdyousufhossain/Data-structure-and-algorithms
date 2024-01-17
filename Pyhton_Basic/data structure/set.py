@@ -11,12 +11,14 @@ def removeItem(item,list):
                 print(item , 'is not in the', list)
     
 #remove() takes two parameter one is value other is set / array 
+
+#removeItem(3,set)
+#removeItem(5,set)
+#removeItem(5,set)
 union_set = set | set2 #combile the both item
 intersection = set & set2 # only common in both
 difference_set = set - set2 # only difference in both
 symmetric_difference_set = set ^ set2 # different in both
-#removeItem(3,set)
-# removeItem(5,set)
-# removeItem(5,set)
+
 print(set,set2)
 print(symmetric_difference_set)
