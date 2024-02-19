@@ -4,7 +4,7 @@ def main():
     
     
         
-def get_int(param) -> str:
+def get_int(param:str) -> str:
     while True:
         try:
             x = int(input(param))
